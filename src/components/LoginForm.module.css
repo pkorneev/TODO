@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+.loginForm input{
+    padding: .75rem;
+    border-radius: .5rem;
+    border: 1px solid rgb(175, 175, 175);
+}
+.loginForm button{
+    padding: .75rem;
+    border-radius: .5rem;
+    border: 1px solid rgb(175, 175, 175);
+    cursor: pointer;
+}

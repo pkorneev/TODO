@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.loginPage{
+    display: flex;
+    gap: 2rem;
+    padding: 10rem 1rem;
+    align-items: start;
+    height: 100vh;
+}
+.leftPart, .rightPart{
+    flex: 1;
+}
+.leftPart h1{
+    font-size: 4rem;
+    font-weight: 100;
+}
+.leftPart p{
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
