@@ -2,7 +2,7 @@ import React from "react";
 import Wrapper from "../UI/Wrapper";
 import LoginForm from "./LoginForm";
 import styles from "./Login.module.css";
-const Login = () => {
+const Login = (props) => {
   return (
     <div className={styles}>
       <div className={styles.wrapper}>
@@ -12,7 +12,7 @@ const Login = () => {
             <p>Take notes, add TODOs and always be on time.</p>
           </div>
           <div className={styles.rightPart}>
-            <LoginForm />
+            <LoginForm onLogin={props.onLogin} />
           </div>
         </div>
       </div>
