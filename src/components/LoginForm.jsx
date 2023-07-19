@@ -61,7 +61,7 @@ const LoginForm = (props) => {
         onChange={inputPasswordHandler}
         value={formData.password}
       />
-      <button type="submit">Login</button>
+      <button type="submit">Log In</button>
     </form>
   );
 };

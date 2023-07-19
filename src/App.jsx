@@ -1,4 +1,5 @@
 import Login from "./components/Login";
+import Home from "./components/Home";
 import "./App.css";
 import { useState } from "react";
 
@@ -8,7 +9,15 @@ function App() {
   const onLoginHandler = (validData) => {
     setIsLoggedIn(validData);
   };
-  return <>{!isLoggedIn && <Login onLogin={onLoginHandler} />}</>;
+  const onLogoutHandler = () => {
+    setIsLoggedIn(false);
+  };
+  return (
+    <>
+      {!isLoggedIn && <Login onLogin={onLoginHandler} />}
+      {isLoggedIn && <Home onLogout={onLogoutHandler} />}
+    </>
+  );
 }
 
 export default App;
