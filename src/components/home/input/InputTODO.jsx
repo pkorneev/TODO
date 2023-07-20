@@ -7,7 +7,9 @@ const InputTODO = (props) => {
 
   const onSubmitHandler = (event) => {
     event.preventDefault();
-    props.onAddTodo(todo);
+    if (todo.trim().length >= 1) {
+      props.onAddTodo(todo);
+    }
     setTodo("");
   };
   const inputHandler = (event) => {
