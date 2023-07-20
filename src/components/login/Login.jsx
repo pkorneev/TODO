@@ -1,5 +1,5 @@
 import React from "react";
-import Wrapper from "../UI/Wrapper";
+import Wrapper from "../../UI/Wrapper";
 import LoginForm from "./LoginForm";
 import styles from "./Login.module.css";
 const Login = (props) => {

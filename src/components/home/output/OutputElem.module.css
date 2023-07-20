@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.todoElem{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.todoElem p{
+    border-radius: 1.5rem;
+    border: 1px solid black;
+    padding: 1rem 1rem;
+    width: 100%;
+    max-width: 800px;
+    word-wrap: break-word;
+}
+.todoElem button{
+    padding: 1rem 1.25rem;
+    border-radius: 4rem;
+    border: 1px solid black;
+    cursor: pointer;
+}

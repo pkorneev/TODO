@@ -1,4 +1,4 @@
-import Wrapper from "../UI/Wrapper";
+import Wrapper from "../../UI/Wrapper";
 import styles from "./Header.module.css";
 const Header = (props) => {
   return (

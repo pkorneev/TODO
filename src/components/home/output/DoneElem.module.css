@@ -1,0 +1,19 @@
+.doneElem{
+    list-style: none;
+    width: 100%;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.doneElem p {
+    border-radius: 1.5rem;
+    border: 1px solid black;
+    padding: 1rem 1rem;
+    width: 100%;
+    max-width: 600px;
+    word-wrap: break-word;
+    text-decoration: line-through;
+    background-color: rgb(171, 255, 132);
+}
