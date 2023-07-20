@@ -3,8 +3,13 @@ import InputTODO from "./input/InputTODO";
 import Output from "./output/Output";
 import { useState } from "react";
 const Home = (props) => {
-  const [todosList, setTodosList] = useState([]);
-  const [doneList, setDoneList] = useState([]);
+  const [todosList, setTodosList] = useState([
+    "Buy some food and drinks",
+    "Pay for the internet",
+  ]);
+  const [doneList, setDoneList] = useState([
+    "Finish the project till deadline",
+  ]);
 
   const handleDeleteTodo = (todoToDelete) => {
     setDoneList((prev) => {
