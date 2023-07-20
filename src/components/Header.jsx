@@ -2,7 +2,7 @@ import Wrapper from "../UI/Wrapper";
 import styles from "./Header.module.css";
 const Header = (props) => {
   return (
-    <header className={styles}>
+    <header className={styles.header}>
       <Wrapper>
         <nav>
           <span>Notes</span>
