@@ -12,7 +12,8 @@
   
 }
 .home{
-  height: 100vh;
+  min-height: 100vh;
+  padding-bottom: 6rem;
   background-color: var(--backgroundLight);
 }
 .light{
