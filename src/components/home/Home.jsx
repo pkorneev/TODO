@@ -1,6 +1,7 @@
 import Header from "./Header";
 import InputTODO from "./input/InputTODO";
 import Output from "./output/Output";
+
 import { useState } from "react";
 const Home = (props) => {
   const [todosList, setTodosList] = useState([
@@ -27,7 +28,7 @@ const Home = (props) => {
   };
 
   return (
-    <div>
+    <div className="home">
       <Header onLogout={props.onLogout} />
       <InputTODO onAddTodo={onAddTodoHandler} />
       <Output

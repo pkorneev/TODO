@@ -13,7 +13,9 @@
 }
 .todoElem p{
     border-radius: .5rem;
-    border: 1px solid black;
+    box-shadow: 0px 0px 9px -1px rgba(156,133,75,1);
+    background-color: var(--backgroundLightLighter);
+    color: var(--textColorDark);
     padding: 1rem 1rem;
     width: 100%;
     max-width: 800px;

@@ -1,6 +1,23 @@
+:root{
+  --backgroundDark: rgb(21, 37, 63);
+  --backgroundLight: rgb(240, 231, 219);
+  --backgroundLightLighter: rgb(245, 240, 233);
+  --textColorDark: rgb(21, 37, 63);
+  --textColorLight: rgb(240, 231, 219);
+}
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   
+}
+.home{
+  height: 100vh;
+  background-color: var(--backgroundLight);
+}
+.light{
+  background-color: var(--backgroundLight);
+}
+.dark{
+  background-color: var(--backgroundDark);
 }

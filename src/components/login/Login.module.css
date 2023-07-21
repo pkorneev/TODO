@@ -18,11 +18,20 @@
 .leftPart, .rightPart{
     flex: 1;
 }
-.leftPart h1{
+.leftPart .headerH1{
     font-size: 4rem;
     font-weight: 100;
+    color: var(--textColorDark);
 }
 .leftPart p{
     margin-top: 1rem;
     font-size: 1.25rem;
+    color: var(--textColorDark);
 }
+.headerH1.dark{
+    color: var(--textColorLight);
+}
+.headerP.dark{
+    color: var(--textColorLight);
+}
+

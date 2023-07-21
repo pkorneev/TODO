@@ -1,7 +1,9 @@
 import React, { useReducer } from "react";
 import styles from "./LoginForm.module.css";
-
+import { ThemeContext } from "../../App";
 const reducer = (state, action) => {
+  //const { theme, toggleTheme } = useContext(ThemeContext);
+
   if (action.type === "EMAIL_CHANGE") {
     return {
       ...state,
