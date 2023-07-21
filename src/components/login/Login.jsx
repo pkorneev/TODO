@@ -30,7 +30,7 @@ const Login = (props) => {
             </p>
           </div>
           <div className={styles.rightPart}>
-            <LoginForm onLogin={props.onLogin} />
+            <LoginForm onLogin={props.onLogin} theme={theme} />
           </div>
         </div>
       </div>

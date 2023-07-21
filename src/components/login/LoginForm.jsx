@@ -1,9 +1,6 @@
 import React, { useReducer } from "react";
 import styles from "./LoginForm.module.css";
-import { ThemeContext } from "../../App";
 const reducer = (state, action) => {
-  //const { theme, toggleTheme } = useContext(ThemeContext);
-
   if (action.type === "EMAIL_CHANGE") {
     return {
       ...state,
@@ -50,7 +47,14 @@ const LoginForm = (props) => {
   };
 
   return (
-    <form className={styles.loginForm} onSubmit={onSubmitFormHandler}>
+    <form
+      onSubmit={onSubmitFormHandler}
+      className={
+        props.theme === "dark"
+          ? `${styles.loginForm} ${styles.dark}`
+          : styles.loginForm
+      }
+    >
       <input
         type="text"
         placeholder="Enter your e-mail"

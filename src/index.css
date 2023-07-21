@@ -1,5 +1,6 @@
 :root{
   --backgroundDark: rgb(21, 37, 63);
+  --backgroundDarkDarker: rgb(13, 30, 57);
   --backgroundLight: rgb(240, 231, 219);
   --backgroundLightLighter: rgb(245, 240, 233);
   --textColorDark: rgb(21, 37, 63);
@@ -14,7 +15,7 @@
 .home{
   min-height: 100vh;
   padding-bottom: 6rem;
-  background-color: var(--backgroundLight);
+  
 }
 .light{
   background-color: var(--backgroundLight);
