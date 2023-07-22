@@ -15,6 +15,7 @@
 }
 .header span{
     font-size: 1.75rem;
+    font-weight: 200;
 }
 .header button{
     padding: .5rem 1rem;
