@@ -5,24 +5,35 @@
 }
 .header {
     padding: 1.75rem 1rem;
-    box-shadow: 0px 2px 2px -2px rgba(156,133,75,1);
+    
     background-color: var(--backgroundLightLighter);
+}
+.header.dark{
+    background-color: var(--backgroundDarkLighter);
 }
 .header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header span{
+.header .span{
     font-size: 1.75rem;
     font-weight: 200;
+    color: var(--textColorDark);
+}
+.span.dark{
+    color: var(--textColorLight);
 }
 .header .logOut{
     margin-left: 1rem;
     padding: .5rem 1rem;
     border-radius: .5rem;
-    color: var(--textColorDark);
-    border: 1px solid var(--backgroundDark);
-    background-color: var(--backgroundLight);
+    color: var(--textColorLight);
+    border: none;
+    background-color: rgb(165, 143, 115);
     cursor: pointer;
+}
+.logOut.dark{
+    background-color: var(--backgroundLight);
+    color: var(--textColorDark);
 }

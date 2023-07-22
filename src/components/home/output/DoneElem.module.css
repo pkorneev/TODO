@@ -7,14 +7,17 @@
     align-items: center;
     
 }
-.doneElem p {
+.doneElem .p {
     border-radius: .5rem;
     color: var(--textColorDark);
-    box-shadow: 0px 0px 9px -1px rgba(156,133,75,1);
     padding: 1rem 1rem;
     width: 100%;
     max-width: 600px;
     word-wrap: break-word;
     text-decoration: line-through;
     background-color: var(--backgroundLightLighter);
+}
+.p.dark {
+    background-color: var(--backgroundDarkLighter);
+    color: var(--textColorLight);
 }
