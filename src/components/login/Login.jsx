@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import LoginForm from "./LoginForm";
 import styles from "./Login.module.css";
+import ModeButton from "../ModeButton";
 import { ThemeContext } from "../../App";
 
 const Login = (props) => {
@@ -8,6 +9,7 @@ const Login = (props) => {
   return (
     <div className={styles}>
       <div className={styles.wrapper}>
+        <ModeButton />
         <div className={styles.loginPage}>
           <div className={styles.leftPart}>
             <h1
@@ -17,7 +19,7 @@ const Login = (props) => {
                   : styles.headerH1
               }
             >
-              Notes
+              NOTES
             </h1>
             <p
               className={

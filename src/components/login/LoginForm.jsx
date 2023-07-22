@@ -60,14 +60,25 @@ const LoginForm = (props) => {
         placeholder="Enter your e-mail"
         onChange={inputEmailHandler}
         value={formData.email}
+        className={props.theme === "dark" ? `${styles.dark}` : styles}
       />
       <input
         type="text"
         placeholder="Enter your password"
         onChange={inputPasswordHandler}
         value={formData.password}
+        className={props.theme === "dark" ? `${styles.dark}` : styles}
       />
-      <button type="submit">Log In</button>
+      <button
+        type="submit"
+        className={
+          props.theme === "dark"
+            ? `${styles.button} ${styles.dark}`
+            : styles.button
+        }
+      >
+        Log In
+      </button>
     </form>
   );
 };

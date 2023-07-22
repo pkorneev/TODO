@@ -1,8 +1,8 @@
 :root{
   --backgroundDark: rgb(21, 37, 63);
-  --backgroundDarkDarker: rgb(13, 30, 57);
+  --backgroundDarkLighter: rgb(33, 52, 82);
   --backgroundLight: rgb(240, 231, 219);
-  --backgroundLightLighter: rgb(245, 240, 233);
+  --backgroundLightLighter: rgb(228, 213, 193);
   --textColorDark: rgb(21, 37, 63);
   --textColorLight: rgb(240, 231, 219);
 }
@@ -10,7 +10,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Helvetica;
 }
 .home{
   min-height: 100vh;
