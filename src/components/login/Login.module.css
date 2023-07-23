@@ -10,20 +10,31 @@
 }
 .loginPage{
     display: flex;
-    gap: 2rem;
-    padding: 10rem 1rem;
-    align-items: start;
+    flex-direction: column;
+    padding: 28px 1rem 10rem 1rem;
+    align-items: flex-end;
     height: 100vh;
+}
+.flexRow{
+    margin-top: 9rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 6rem;
+    justify-content: space-between;
 }
 .leftPart, .rightPart{
     flex: 1;
 }
 .leftPart .headerH1{
+    text-align: center;
     font-size: 4rem;
     font-weight: 500;
     color: var(--textColorDark);
 }
 .leftPart p{
+    text-align: center;
     margin-top: 1rem;
     font-weight: 100;
     font-size: 1.25rem;
@@ -35,4 +46,17 @@
 .headerP.dark{
     color: var(--textColorLight);
 }
-
+@media  screen and (min-width: 800px){
+    .flexRow{
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+    .leftPart .headerH1{
+        text-align: start;
+    }
+    .leftPart p{
+        text-align: start;
+    }
+}

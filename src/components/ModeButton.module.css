@@ -1,7 +1,23 @@
 .modeButton{
     cursor: pointer;
-    padding: .5rem 1.25rem;
+    padding: 0.05rem 1rem;
     border-radius: .5rem;
-    border: 1px solid black;
+    border: none;
+    background-color: var(--backgroundDarkLighter);
+    color: var(--textColorLight);
+}
+.modeButton.dark{
+    color: var(--textColorDark);
+    background-color: var(--backgroundLight);
+}
+.img.dark{
+    filter: invert(15%) sepia(67%) saturate(483%)
+     hue-rotate(177deg) brightness(100%) contrast(93%);
     
+}
+.img{
+    width: 2.5rem;
+    
+    filter: invert(87%) sepia(1%) saturate(4153%)
+     hue-rotate(10deg) brightness(94%) contrast(120%);
 }

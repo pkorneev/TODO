@@ -9,30 +9,32 @@ const Login = (props) => {
   return (
     <div className={styles}>
       <div className={styles.wrapper}>
-        <ModeButton />
         <div className={styles.loginPage}>
-          <div className={styles.leftPart}>
-            <h1
-              className={
-                theme === "dark"
-                  ? `${styles.headerH1} ${styles.dark}`
-                  : styles.headerH1
-              }
-            >
-              NOTES
-            </h1>
-            <p
-              className={
-                theme === "dark"
-                  ? `${styles.headerP} ${styles.dark}`
-                  : styles.headerP
-              }
-            >
-              Take notes, add TODOs and always be on time.
-            </p>
-          </div>
-          <div className={styles.rightPart}>
-            <LoginForm onLogin={props.onLogin} theme={theme} />
+          <ModeButton />
+          <div className={styles.flexRow}>
+            <div className={styles.leftPart}>
+              <h1
+                className={
+                  theme === "dark"
+                    ? `${styles.headerH1} ${styles.dark}`
+                    : styles.headerH1
+                }
+              >
+                NOTES
+              </h1>
+              <p
+                className={
+                  theme === "dark"
+                    ? `${styles.headerP} ${styles.dark}`
+                    : styles.headerP
+                }
+              >
+                Take notes, add TODOs and always be on time.
+              </p>
+            </div>
+            <div className={styles.rightPart}>
+              <LoginForm onLogin={props.onLogin} theme={theme} />
+            </div>
           </div>
         </div>
       </div>

@@ -21,7 +21,7 @@ const Header = (props) => {
           >
             Notes
           </span>
-          <div>
+          <div className={styles.navButtons}>
             <ModeButton />
             <button
               onClick={props.onLogout}

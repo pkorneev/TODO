@@ -5,7 +5,6 @@
 }
 .header {
     padding: 1.75rem 1rem;
-    
     background-color: var(--backgroundLightLighter);
 }
 .header.dark{
@@ -26,6 +25,8 @@
 }
 .header .logOut{
     margin-left: 1rem;
+    font-size: 1.1rem;
+    font-weight: 300;
     padding: .5rem 1rem;
     border-radius: .5rem;
     color: var(--textColorLight);
@@ -36,4 +37,7 @@
 .logOut.dark{
     background-color: var(--backgroundLight);
     color: var(--textColorDark);
+}
+.navButtons{
+    display: flex;
 }
