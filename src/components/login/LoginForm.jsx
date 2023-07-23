@@ -63,7 +63,7 @@ const LoginForm = (props) => {
         className={props.theme === "dark" ? `${styles.dark}` : styles}
       />
       <input
-        type="text"
+        type="password"
         placeholder="Enter your password"
         onChange={inputPasswordHandler}
         value={formData.password}

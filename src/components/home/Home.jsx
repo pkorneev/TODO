@@ -5,7 +5,7 @@ import Output from "./output/Output";
 import { useState } from "react";
 const Home = (props) => {
   const [todosList, setTodosList] = useState([
-    "Buy some food and drinks",
+    "dqwomkqwdkmdqwmodmqwkoqwdkmokmqwdokmoqwdkmoqwdkmowdqkmomkqwdkmomkqwdokmoqwdkmoqwdkmoqwdkmoqwdkmokmowdqkmoqdwkmodqwkmodqwkmoqwdkmokmo",
     "Pay for the internet",
   ]);
   const [doneList, setDoneList] = useState([

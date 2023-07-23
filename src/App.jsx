@@ -32,7 +32,9 @@ function App() {
   const toggleTheme = () => {
     setTheme((current) => (current === "light" ? "dark" : "light"));
   };
-
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className={theme}>

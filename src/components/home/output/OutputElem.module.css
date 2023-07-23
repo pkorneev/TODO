@@ -12,12 +12,13 @@
     align-items: center;
 }
 .todoElem .p{
+    
+    width: 100%;
+    max-width: calc(100% - 4rem);
     border-radius: .5rem;
     background-color: var(--backgroundLightLighter);
     color: var(--textColorDark);
     padding: 1rem 1rem;
-    width: 100%;
-    max-width: 800px;
     word-wrap: break-word;
 }
 .p.dark{

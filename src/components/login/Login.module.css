@@ -13,7 +13,6 @@
     flex-direction: column;
     padding: 28px 1rem 10rem 1rem;
     align-items: flex-end;
-    height: 100vh;
 }
 .flexRow{
     margin-top: 9rem;
@@ -45,6 +44,9 @@
 }
 .headerP.dark{
     color: var(--textColorLight);
+}
+.rightPart{
+    width: 100%;
 }
 @media  screen and (min-width: 800px){
     .flexRow{
